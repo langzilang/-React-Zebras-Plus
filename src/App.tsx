@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import React from 'react';
 import Hello from './components/Hello'
+import LikeButtion from "./components/LikeButtion";
 
 const App: React.FC = () => {
   return (
@@ -11,6 +12,7 @@ const App: React.FC = () => {
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
         </p>
+        <LikeButtion />
         <Hello message={"hello world 2"}/>
         <a
           className="App-link"
